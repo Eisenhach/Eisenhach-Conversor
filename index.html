@@ -4,25 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="shortcut icon" href="./assets/simbolo-de-dolar.png" type="image/x-icon">
-    <title>Convertidor dolares a pesos</title>
+
+    <!-- FAVICON -->
+    <link
+      rel="shortcut icon"
+      href="./assets/simbolo-de-dolar.png"
+      type="image/x-icon"
+    />
+
+    <!-- Google Fonts (DynaPuff) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Contador de clicks</title>
   </head>
   <body>
-    <div class="title">
-      <h1>Conversor de dolares a pesos</h1>
-    </div>
-    <div class="container-form">
-      <form>
-        <label for="cantidad">Cantidad en dólares:</label>
-        <input type="number" id="cantidad" name="cantidad" />
-
-        <label for="resultado">Cantidad en pesos argentinos:</label>
-        <input type="text" id="resultado" name="resultado" />
-
-        <button type="button" onclick="convertir()">Convertir</button>
-      </form>
-    </div>
+    <h1>Contador de clicks</h1>
+    <button id="boton">Haz click aquí</button>
+    <p id="contador"></p>
 
     <script type="text/javascript" src="./js/main.js"></script>
   </body>

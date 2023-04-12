@@ -8,7 +8,7 @@ boton.addEventListener("click", contarClicks);
 function contarClicks() {
   clicks++;
 
-  if (clicks <= 100) {
+  if (clicks <= 15) {
     contador.textContent = `Has hecho ${clicks} clicks`;
   } else {
     contador.textContent = "Has llegado al límite de clicks";
